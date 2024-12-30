@@ -1,0 +1,95 @@
+.signupcolor{
+    background-color: #056777;
+}
+
+.bg-col-5{
+    background-color: #056777;
+}
+.bg-col-6:hover{
+    background-color: #3da9b9;
+}
+.bg-col-7:hover{
+    color: #a4b9bd;
+}
+@keyframes slight-move {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .navbar-link-active {
+    animation: slight-move 0.5s ease-in-out;
+  }
+  
+
+@media screen and (min-width: 1024px) {
+    .img1 {
+        display: block;
+    }
+    .img2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .img2 {
+        display: block;
+    }
+    .img1 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    #searchbar {
+        display: block;
+    }
+    #browse {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #searchbar {
+        display: none;
+    }
+    #browse {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    #services { 
+        display: none;
+    }
+    #hamburger{
+        display: flex;
+        align-items: center;
+    }
+    #ham{
+        display: flex;
+        justify-content: end;
+
+    }
+}
+
+@media screen and (min-width: 860px) {
+    #services {
+        display: flex;
+    }
+    #hamburger{
+        display: none;
+    }
+    #browse{
+        display: none;
+    }
+    #ham{
+        display: none;
+    }
+}
